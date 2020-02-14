@@ -97,8 +97,8 @@ const MainContainer = styled.div`
 
 const CellContaier = styled.div`
   box-sizing: border-box;
-  flex-basis: calc(${props => props.flexBasisString});
   display: flex;
+  flex-basis: calc(${props => props.flexBasisString});
   justify-content: ${props => props.justifyContent};
   margin: ${props => props.cellMargin};
   padding: ${props => props.cellPadding};
